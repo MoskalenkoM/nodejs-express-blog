@@ -1,0 +1,5 @@
+##store data
+dbpath=F:\web_developers\GitHub\nodejs-express-blog\databases\mongostore\data
+ 
+##all output go here
+logpath=F:\web_developers\GitHub\nodejs-express-blog\databases\mongostore\log\mongo.log

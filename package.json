@@ -1,0 +1,43 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cross-env PORT=3001 node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "MoskalenkoM",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:node/recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "node"
+    ],
+    "rules": {
+      "node/exports-style": [
+        "error",
+        "module.exports"
+      ],
+      "no-console": 0
+    }
+  }
+}
