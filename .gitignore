@@ -1,3 +1,2 @@
 node_modules
-databases/mongostore/data/*
-databases/mongostore/log/*
+databases
