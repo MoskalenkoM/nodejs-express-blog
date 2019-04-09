@@ -21,7 +21,7 @@
     "mongoose": "^5.2.4"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.0.1"
   },
   "eslintConfig": {
     "extends": [
