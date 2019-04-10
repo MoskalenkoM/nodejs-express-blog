@@ -18,6 +18,7 @@
     "cross-env": "^5.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "jquery": "^3.4.0",
     "mongoose": "^5.2.4"
   },
   "engines": {
